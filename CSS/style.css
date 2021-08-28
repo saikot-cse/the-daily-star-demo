@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+/* Header section Starts */
+body {
+    margin: 0 60px;
+}
+
+#navbar {
+
+    background-color: #E7E6E6;
+    border-bottom: 1px solid #5CAEE0;
+}
+
+.header {
+    width: 50%;
+}
+
+.btn {
+    background-color: #1779ba;
+    color: #fff;
+    padding: 5px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
+
+p .day {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #1F2F5F;
+}
+
+p .pera_info {
+    color: #F17042;
+}
+
+.header_eng_img {
+    max-width: 40%;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.header_bn_img {
+    max-width: 40%;
+    display: inline-block;
+    margin-left: 60%;
+}
+
+.header_details {
+    display: flex;
+    font-size: 16px;
+}
+
+.header_bn_details {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 16px;
+}
+
+.header_details p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.header_bn_details p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.header_sec {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.marquee_sec {
+    border-top: 1px solid #5CAEE0;
+    background-color: #fff;
+}
+
+/* Header Section ends */
+/* main section starts */
+.news_portal {
+    display: flex;
+    border-bottom: 1px solid #5CAEE0;
+}
+
+.middle_items {
+    display: flex;
+    background-color: red;
+    color: #fff;
+    height: 125px;
+}
+
+.middle_items .middle_key_point {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.middle_key_point_bn {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    cursor: pointer;
+    padding-left: 106px;
+}
+
+.middle_info h3 {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.middle_info h3 {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.news_info {
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.news_details {
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.news_details h3 {
+    margin-top: 10px;
+}
+
+.key_point {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.eng_news {
+    margin-left: -10px;
+}
+
+.middle_sec {
+    margin-top: 10px;
+}
+
+/* opinion section  */
+.opinion_sec {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #5CAEE0;
+}
+
+.opinion_overview {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.opinion_sec a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+
+.author_img {
+    border-radius: 50%;
+}
+
+.opinion_info {
+    display: flex;
+}
+
+.author {
+    margin-top: 50px;
+}
+
+.author a {
+    color: royalblue;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.opinion_details {
+    margin-left: 10px;
+}
+
+.title a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+}
+
+.opinion_portal {
+    background-color: #E7E6E6;
+    border-bottom: 1px solid #5CAEE0;
+
+}
+
+/* Panel section  */
+.panel_title {
+    margin: 20px 0px;
+}
+
+.panel_title a:hover {
+    text-decoration: underline;
+}
+
+.panel_title a {
+    text-decoration: none;
+    color: #000;
+}
+
+.panel_info {
+    width: 100%;
+}
+
+.panel_sec {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 0px 90px;
+}
+
+.zoom {
+    transition: transform .3s;
+    margin: 0 auto;
+    box-shadow: 2px 2px 5px 2px #888888;
+    cursor: pointer;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
+
+/* Footer Section  */
+.footer_logo {
+    max-width: 40%;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.footer_sec {
+    margin-top: 20px;
+    display: flex;
+    background-color: #000;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.follow {
+    color: #fff;
+    font-size: 30px;
+    margin-left: 150px;
+}
+.footer_img{
+    width: 40%;
+}
+.social_link {
+    display: flex;
+    flex-direction: column;
+    margin-left: 125px;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    padding: 5px;
+    margin-left: 140px;
+}
+.icons{
+    padding: 5px;
+    color: #888888;
+    font-size: 20px;
+}
+.footer_text{
+    color: #fff;
+    margin-top: 45px;
+}
