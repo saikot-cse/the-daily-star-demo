@@ -108,6 +108,7 @@ p .pera_info {
     font-size: 25px;
     font-weight: 700;
     cursor: pointer;
+    margin-left: 15px;
 }
 
 .middle_key_point_bn {
@@ -116,10 +117,11 @@ p .pera_info {
     font-size: 25px;
     font-weight: 700;
     cursor: pointer;
-    padding-left: 106px;
+    padding-left: 125px;
 }
 
 .middle_info h3 {
+    margin-left: 15px;
     margin-top: 20px;
     cursor: pointer;
 }
